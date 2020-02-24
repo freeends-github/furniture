@@ -146,11 +146,11 @@
 			<section class="menu-market_section">
 				<div class="list_menu-market">
 					<ul>
-						<li class="market-active"><a href="#">Furniture</a></li>
-						<li><a href="#">Lighting</a></li>
-						<li><a href="#">Sofas</a></li>
-						<li><a href="#">Lounge chairs</a></li>
-						<li><a href="#">All</a></li>
+						<li data-filter=".furniture"><a href="#">Furniture</a></li>
+						<li data-filter=".lighting"><a href="#">Lighting</a></li>
+						<li data-filter=".sofas"><a href="#">Sofas</a></li>
+						<li data-filter=".lounge"><a href="#">Lounge chairs</a></li>
+						<li class="market-active" data-filter=".all"><a href="#">All</a></li>
 					</ul>
 				</div>
 				<div class="list2_menu-market">
@@ -169,7 +169,7 @@
 			</section>
 			<section class="table-market_section">
 					<div class="flex-div-table-market">
-						<div class="flex-div1">
+						<div class="flex-div1 all furniture">
 							<div class="background-market">
 								<div class="background-market1">
 										<div>
@@ -199,7 +199,7 @@
 								</div>
 							</div>
 						</div>
-						<div>
+						<div class="all lighting">
 							<div class="background-market">
 								<div class="background-market2">
 									<div>
@@ -228,7 +228,7 @@
 								</div>
 							</div>
 						</div>
-						<div>
+						<div class="all sofas">
 							<div class="background-market">
 								<div class="background-market3">
 										<div>
@@ -258,7 +258,7 @@
 								</div>
 							</div>
 						</div>
-						<div>
+						<div class="flex-div3 all sofas">
 							<div class="background-market">
 								<div class="background-market4">
 									<div>
@@ -287,9 +287,7 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="flex-div-table-market">
-						<div class="flex-div1">
+						<div class="flex-div1 all lounge">
 							<div class="background-market">
 								<div class="background-market5">
 									<div>
@@ -319,7 +317,7 @@
 								</div>
 							</div>
 						</div>
-						<div>
+						<div class="all furniture">
 							<div class="background-market">
 								<div class="background-market6">
 									<div>
@@ -348,7 +346,7 @@
 								</div>
 							</div>
 						</div>
-						<div>
+						<div class="all lounge">
 							<div class="background-market">
 								<div class="background-market7">
 									<div>
@@ -378,7 +376,7 @@
 								</div>
 							</div>
 						</div>
-						<div>
+						<div class="flex-div3 all furniture">
 							<div class="background-market">
 								<div class="background-market8">
 									<div>
@@ -408,7 +406,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="button1 button1-market">
+					<div class="button1 button1-market" data-filter=".all">
 						<button>View All
 							<div class="circlediv1"></div>
 							<div class="circlediv2"></div>
@@ -724,18 +722,18 @@
 							<h3>$149.00 <span>$250.00</span></h3>
 							<div>
 								<div class="square_div">
-									<h1>09</h1>
+									<h1 id="hours"></h1>
 									<p>hrs</p>
 								</div>
 								<h2>:</h2>
 								<div class="square_div">
-									<h1>09</h1>
-									<p>hrs</p>
+									<h1 id="minutes"></h1>
+									<p>min</p>
 								</div>
 								<h2>:</h2>
 								<div class="square_div">
-									<h1>09</h1>
-									<p>hrs</p>
+									<h1 id="seconds"></h1>
+									<p>sec</p>
 								</div>
 							</div>
 							<div class="button1 countdown-button">
@@ -761,7 +759,7 @@
 							</button>
 						</div>
 					</div>
-					<div class="flex-div-table-market table-market3">
+					<div class="table-market3">
 						<div class="flex-div1">
 							<div class="background-market">
 								<div class="background-market1">
@@ -859,7 +857,7 @@
 		</section>
 		<section class="market3_part2">
 			<div>
-				<div class="flex-div-table-market table-market3_part2">
+				<div class="table-market3_part2">
 					<div class="flex-div1">
 						<div class="background-market background-market3_part2">
 							<div class="background-market1">
@@ -1119,5 +1117,27 @@
 		</div>
 		<div class="copyright_div"><h1>Copyright@Devdesign Studio</h1></div>
 	</footer>
+	<script src="./style.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+	<script type="text/javascript">
+	    
+    $(".flex-div-table-maket").isotope({
+    // options
+    itemSelector: '.flex-div-table-market>div',
+    layoutMode: 'fitRows'
+});
+
+$(".list_menu-market ul li").click(function(){
+	$(".list_menu-market ul li").removeClass("market-active");
+	$(this).addClass("market-active");
+
+	var seclector = $(this).attr("data-filter");
+	$(".flex-div-table-market").isotope({
+		filter : seclector
+	});
+	return false
+})
+	</script>
 </body>
 </html>
