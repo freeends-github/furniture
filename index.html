@@ -6,17 +6,30 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
 	<script src="https://kit.fontawesome.com/b33fd54741.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="slick.css">
 	<link rel="stylesheet" href="main.css">
+
 	<link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet">
 </head>
 <body>
+	<section class="menu_class">
+		<i class="fas fa-times x-item"></i>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Features</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Product</a></li>
+			<li><a href="#">Shop</a></li>
+			<li><a href="#">Blog</a></li>
+	  </ul>
+	</section>
 	<header>
 		<section class="first_header">
 			<div class="first_header_div">
 				<div class="first_header_first_div">
 					<ul>
-						<li class="first"><a href="#"><span>E :</span> 0devdesign@gmail.com</a></li>
-						<li class="bullet"><a href="#"><span>P :</span> 01-xxx-xxx-xxxx</a></li>
+						<li class="first"><a href="mailto:0devdesign@gmail.com"><span>E :</span> 0devdesign@gmail.com</a></li>
+						<li class="bullet flex-div3"><a href="#"><span>P :</span> 01-xxx-xxx-xxxx</a></li>
 					</ul>
 				</div>
 				<div class="first_header_second_div">
@@ -32,31 +45,43 @@
 		<section class="second_header">
 			<div class="second_header_div"> 
 				<div class="second_header_first_div">
+					<i class="fas fa-bars hamburger_menu"></i>
 					<div class="header_div"><h1>Dev Furniture Mart</h1></div>
-					<div class="list_div">
-					   <ul>
-						     <li class="active_link"><a href="#">Home</a><div class="hover_div1"></div></li>
-						     <li><a href="#">Features</a><div class="hover_div2 hover_show"></div></li>
-						     <li><a href="#">Services</a><div class="hover_div3 hover_show"></div></li>
-						     <li><a href="#">Product</a><div class="hover_div4 hover_show"></div></li>
-						     <li><a href="#">Shop</a><div class="hover_div5 hover_show"></div></li>
-						     <li><a href="#">Blog</a><div class="hover_div6 hover_show"></div></li>
-					   </ul>
-				    </div>
 				</div>
 				<div class="second_header_second_div">
-					<div>
-						<i class="fas fa-search"></i>
-						<p>Search</p>
-					</div>
-					<div>
-						<i class="far fa-user"></i>
-						<p>Account</p>
-					</div>
-					<div class="cart">
-						<i class="fas fa-shopping-cart"></i>
-						<p>Cart</p>
-						<div class="topright"><p>2</p></div>
+					<div class="list_div">
+						<ul>
+							  <li class="active_link"><a href="#">Home</a><div class="hover_div1"></div></li>
+							  <li><a href="#">Features</a><div class="hover_div2 hover_show"></div></li>
+							  <li><a href="#">Services</a><div class="hover_div3 hover_show"></div></li>
+							  <li><a href="#">Product</a><div class="hover_div4 hover_show"></div></li>
+							  <li><a href="#">Shop</a><div class="hover_div5 hover_show"></div></li>
+							  <li><a href="#">Blog</a><div class="hover_div6 hover_show"></div></li>
+						</ul>
+					 </div>
+					<div class="icons_divs">
+						<div class="input_div">
+							<input type="search" name="" id="search_input" placeholder="Search">
+						</div>
+						<div class="search_div">
+								<button>
+									<i class="fas fa-search"></i>
+									<p>Search</p>
+								</button>
+						</div>
+						<div>
+							<button>
+								<i class="far fa-user"></i>
+								<p>Account</p>
+							</button>
+						</div>
+						<div class="cart">
+							<button>
+								<i class="fas fa-shopping-cart"></i>
+								<p>Cart</p>
+								<div class="topright"><p>2</p></div>
+							</button>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -70,7 +95,7 @@
 							<h1>New Collection 2020</h1>
 							<h2>Chair With Style</h2>
 							<p>From <span>$183.76</span></p>
-							<div class="button1">
+							<div class="button1 big_button">
 								<button>Shop Now
 									<div class="circlediv1"></div>
 									<div class="circlediv2"></div>
@@ -94,49 +119,57 @@
 			<section class="market">
 				<div class="market_div">
 					<div class="market_div1">
-						<div>
-							<p>Clearence</p>
-							<h1>Coffee Tables</h1>
-							<h2>from $19.99</h2>
-							<div class="market_button-div">
-								<button class="upper_button">Shop Now</button>
-								<div class="lower_button"></div>
+						<nav>
+							<div>
+								<p>Clearence</p>
+								<h1>Coffee Tables</h1>
+								<h2>from $19.99</h2>
+								<div class="market_button-div">
+									<button class="upper_button">Shop Now</button>
+									<button class="lower_button">Shop Now</button>
+								</div>
 							</div>
-						</div>
+						</nav>
 					</div>
 					<div class="market_div2">
-						<div>
-							<p>Clearence</p>
-							<h1>Coffee Tables</h1>
-							<h2>from $19.99</h2>
-							<div class="market_button-div">
-								<button class="upper_button">Shop Now</button>
-								<div class="lower_button"></div>
+						<nav>
+							<div>
+								<p>Clearence</p>
+								<h1>Coffee Tables</h1>
+								<h2>from $19.99</h2>
+								<div class="market_button-div">
+									<button class="upper_button">Shop Now</button>
+									<button class="lower_button">Shop Now</button>
+								</div>
 							</div>
-						</div>
+						</nav>
 					</div>
 					<div class="market_div3">
 						<div class="market_div31">
-							<div>
-								<p>Clearence</p>
-								<h1>Coffee Tables</h1>
-								<h2>from $19.99</h2>
-								<div class="market_button-div">
-									<button class="upper_button">Shop Now</button>
-								    <div class="lower_button"></div>
+							<nav>
+								<div>
+									<p>Clearence</p>
+									<h1>Coffee Tables</h1>
+									<h2>from $19.99</h2>
+									<div class="market_button-div">
+										<button class="upper_button">Shop Now</button>
+										<button class="lower_button">Shop Now</button>
+									</div>
 								</div>
-							</div>
+							</nav>
 						</div>
 						<div class="market_div32">
-							<div>
-								<p>Clearence</p>
-								<h1>Coffee Tables</h1>
-								<h2>from $19.99</h2>
-								<div class="market_button-div">
-									<button class="upper_button">Shop Now</button>
-									<div class="lower_button"></div>
+							<nav>
+								<div>
+									<p>Clearence</p>
+									<h1>Coffee Tables</h1>
+									<h2>from $19.99</h2>
+									<div class="market_button-div">
+										<button class="upper_button">Shop Now</button>
+										<button class="lower_button">Shop Now</button>
+									</div>
 								</div>
-							</div>
+							</nav>
 						</div>
 					</div>
 				</div>
@@ -150,10 +183,10 @@
 						<li data-filter=".lighting"><a href="#">Lighting</a></li>
 						<li data-filter=".sofas"><a href="#">Sofas</a></li>
 						<li data-filter=".lounge"><a href="#">Lounge chairs</a></li>
-						<li class="market-active" data-filter=".all"><a href="#">All</a></li>
+						<li class="market-active flex-div3" data-filter=".all" ><a href="#">All</a></li>
 					</ul>
 				</div>
-				<div class="list2_menu-market">
+				<div class="list2_menu-market list_at_market1">
 					<ul>
 						<li><i class="fas fa-arrow-circle-left"></i></li>
 						<li><a href="#">Back</a></li>
@@ -346,7 +379,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="all lounge">
+						<div class="all lounge flex-div">
 							<div class="background-market">
 								<div class="background-market7">
 									<div>
@@ -376,7 +409,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="flex-div3 all furniture">
+						<div class="flex-div3 all furniture flex-div">
 							<div class="background-market">
 								<div class="background-market8">
 									<div>
@@ -426,7 +459,7 @@
 			<div class="big_chair_section_div1">
 				<h1>30% off</h1>
 				<h2>Midcentury Modern Occasional Chair</h2>
-				<div class="button1">
+				<div class="button1 big_button">
 					<button>Shop Now
 						<div class="circlediv1"></div>
 						<div class="circlediv2"></div>
@@ -482,7 +515,7 @@
 								</div>
 							</div>
 						</div>
-						<div>
+						<div  class="vanish2-market">
 							<div class="img2-market2 img-market2"><div></div></div>
 							<div class="info-market2">
 								<div>
@@ -497,7 +530,7 @@
 								</div>
 							</div>
 						</div>
-						<div>
+						<div  class="vanish-market">
 							<div class="img3-market2 img-market2"><div></div></div>
 							<div class="info-market2">
 								<div>
@@ -550,7 +583,7 @@
 								</div>
 							</div>
 						</div>
-						<div>
+						<div   class="vanish-market">
 							<div class="img5-market2 img-market2"><div></div></div>
 							<div class="info-market2">
 								<div>
@@ -565,7 +598,7 @@
 								</div>
 							</div>
 						</div>
-						<div>
+						<div  class="vanish2-market">
 							<div class="img6-market2 img-market2"><div></div></div>
 							<div class="info-market2">
 								<div>
@@ -618,7 +651,7 @@
 								</div>
 							</div>
 						</div>
-						<div>
+						<div  class="vanish2-market">
 							<div class="img8-market2 img-market2"><div></div></div>
 							<div class="info-market2">
 								<div>
@@ -633,7 +666,7 @@
 								</div>
 							</div>
 						</div>
-						<div>
+						<div class="vanish-market">
 							<div class="img9-market2 img-market2"><div></div></div>
 							<div class="info-market2">
 								<div>
@@ -743,7 +776,11 @@
 								</button>
 							</div>
 						</div>
-						<div class="countdown_background"><div></div></div>
+						<div class="countdown_background">
+							<div><p>Limited Quantities</p>
+								<h1>Deal of the Day</h1>
+							</div>
+							<img src="./images/picture2@2x.png" alt=""></div>
 					</div>
 				</div>
 			</div>
@@ -790,7 +827,7 @@
 								</div>
 							</div>
 						</div>
-						<div>
+						<div class="vanish2_div">
 							<div class="background-market">
 								<div class="background-market2">
 									<div>
@@ -819,7 +856,7 @@
 								</div>
 							</div>
 						</div>
-						<div>
+						<div class="vanish_div">
 							<div class="background-market">
 								<div class="background-market3">
 										<div>
@@ -888,7 +925,7 @@
 							</div>
 						</div>
 					</div>
-					<div>
+					<div class="right-0 vanish2_div">
 						<div class="background-market background-market3_part2">
 							<div class="background-market2">
 								<div>
@@ -917,7 +954,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="flex-div3">
+					<div class="flex-div vanish_div">
 						<div class="background-market background-market3_part2">
 							<div class="background-market3">
 									<div>
@@ -982,7 +1019,7 @@
 				</div>
 				<div class="blog_div2">
 					<div>
-						<div class="background-blog background-blog1"></div>
+						<div class="background-blog background-blog1"><img src="./images/NoPath - Copy (2)@2x.png" alt=""></div>
 						<div class="info-blog">
 							<h1>Lorem ipsum dolor sit amet, consetetur</h1>
 							<div class="paragraph_div">
@@ -998,7 +1035,7 @@
 						</div>
 					</div>
 					<div>
-						<div class="background-blog background-blog2"></div>
+						<div class="background-blog background-blog2"><img src="./images/NoPath - Copy (3)@2x.png" alt=""></div>
 						<div class="info-blog">
 							<h1>Lorem ipsum dolor sit amet, consetetur</h1>
 							<div class="paragraph_div">
@@ -1014,7 +1051,7 @@
 						</div>
 					</div>
 					<div class="flex-div3">
-						<div class="background-blog background-blog3"></div>
+						<div class="background-blog background-blog3"><img src="./images/NoPath - Copy (4)@2x.png" alt=""></div>
 						<div class="info-blog">
 							<h1>Lorem ipsum dolor sit amet, consetetur</h1>
 							<div class="paragraph_div">
@@ -1117,8 +1154,10 @@
 		</div>
 		<div class="copyright_div"><h1>Copyright@Devdesign Studio</h1></div>
 	</footer>
+
 	<script src="./style.js"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="./slick.js"></script>
 	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 	<script type="text/javascript">
 	    
@@ -1136,8 +1175,55 @@ $(".list_menu-market ul li").click(function(){
 	$(".flex-div-table-market").isotope({
 		filter : seclector
 	});
-	return false
-})
+	return false});
+
+	// Search functionality
+
+	$(".search_div button").on("click", function() {
+		$(".input_div input").toggleClass("showSearch");
+		if($(".input_div input").hasClass("showSearch")) {
+			$(".second_header_second_div").css("justify-content", "flex-end");
+			$(".list_div").css("display", "none");
+		}
+		else {
+			setTimeout(function() {
+				$(".second_header_second_div").css("justify-content", "space-between");
+				$(".list_div").css("display", "block");
+			}, 300);
+		
+		}
+	});
+
+	// Slick slider example
+
+	$('.slick').slick();
+
+
+	// Adding the side menu
+	
+	// $(".hamburger_menu").on("click", function() {
+	// 	$(".menu_class").toggleClass("showmenu");
+	
+	// 	// if($(".menu_class").hasClass("showmenu")) {
+	// 	// 	$(".list_div").css("display", "none");
+	// 	// }
+	// 	// else {
+	// 	// 		$(".list_div").css("display", "block");
+	// 	// }
+	// });
+	$(window).on("resize", function() {
+		if($(window).width() > 1660) {
+			if($(".menu_class").hasClass("showmenu")) {
+				$(".menu_class").removeClass("showmenu");
+			}
+		}
+	}).trigger("resize");
+
+	$(window).on("resize",function(){
+		if($(window).width()<950){
+
+		}
+	})
 	</script>
 </body>
 </html>
