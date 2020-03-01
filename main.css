@@ -30,6 +30,7 @@ button{
 	text-decoration: none;
 	color:#212121;
 	font-size:1rem;
+	font-family:'Roboto';
 }
 .first_header_first_div ul li{
 	margin-right:1.875em;
@@ -108,6 +109,7 @@ button{
 	background-color:rgb(221, 216, 216);
 	width:230px;
 	height:100vh;
+	font-family:'Roboto';
 }
 .menu_class i{
 	position: absolute;
@@ -145,6 +147,8 @@ button{
 }
 .header_div h1{
 	font-size:1.625rem;
+	font-weight:bold;
+	font-family:'Roboto';
 }
 .list_div{
 	padding-top:5px;
@@ -159,6 +163,7 @@ button{
 	font-size:0.875rem;
 	position: relative;
 	z-index: 2;
+	font-family:'Roboto';
 }
 .hover_div1{
 	width: 3em;
@@ -294,6 +299,7 @@ button{
 }
 .second_header_second_div div p{
 	cursor: pointer;
+	font-family:'Roboto';
 }
 .cart{
 	position: relative;
@@ -328,6 +334,7 @@ button{
 	position: absolute;
 	top:19.375em;
 	left:0.5625em;
+	cursor: default;
 }
 .count_section h1{
 	font-size:2.875rem;
@@ -382,17 +389,22 @@ button{
 	font-size:1.375em;
 	color:#424242;
 	cursor:pointer;
+	font-family: 'Roboto';
+	font-weight:bold;
 }
 .chair_info h2{
 	font-size:4.25rem;
 	color: #424242;
 	cursor:pointer;
+	font-family: 'Playfair Display';
+	font-weight:bold;
 }
 .chair_info p{
 	font-size:1.125rem;
 	color:#212121;
 	margin-top:0.8125em;
 	cursor:pointer;
+	font-family: 'Roboto';
 }
 .chair_info span{
 	font-size:1.5rem;
@@ -407,6 +419,7 @@ button{
 	margin-top: 2.6875em;
 	outline: none;
 	border:1px solid #212121;
+	font-family:'Roboto';
 }
 .button1 button .circlediv1{
 	width:0.5em;
@@ -464,11 +477,15 @@ button{
 .background_next-div h1{
 	font-size:0.875rem;
 	color:#FAFAFA;
+	font-family:'Roboto';
+	font-weight:normal;
 }
 .background_next-div h2{
 	font-size:1.125rem;
 	color:#FAFAFA;
 	margin-top: 3px;
+	font-family:'Roboto';
+	font-weight:normal;
 }
 .arrow_div{
 	display: flex;
@@ -528,21 +545,26 @@ button{
 	top:5.5%;
 	/* top:1.75em; */
 	left:7.85%;
+	cursor: pointer;
 	/* left:2.5em; */
 }
 
 .market_div p{
 	font-size:1rem;
 	color: #424242;
+	font-family:'Roboto';
 }
 .market_div h1{
 	font-size:2rem;
 	color:#424242;
+	font-family: 'Playfair Display';
+	font-weight:bold;
 }
 .market_div h2{
 	font-size:1.375em;
 	color:#424242;
 	font-weight:normal;
+	font-family:'Roboto';
 	margin-top:3px;
 }
 .market_div2{
@@ -607,6 +629,7 @@ button{
 	position: relative;
 	height:2.5625em;
 	background:transparent;
+	font-family: 'Roboto';
 }
 .upper_button{
 	padding:0.625em 1.875em;
@@ -645,6 +668,7 @@ button{
 .menu-market_section a{
 	text-decoration: none;
 	color:#616161;
+	font-family: 'Roboto';
 }
 .list_menu-market ul{
 	display:flex;
@@ -667,6 +691,7 @@ button{
 .list_menu-market a{
 	color:#616161;
 	font-size:0.875rem;
+	font-family:'Roboto';
 }
 .list_menu-market ul li:hover{
 	background-color: #212121;
@@ -687,6 +712,7 @@ button{
 	list-style: none;
 	display: flex;
 	margin-left:0.9375em;
+	cursor:pointer;
 }
 .list2_menu-market ul li{
 	margin-left:0.5em;
@@ -710,6 +736,7 @@ button{
 	position: unset !important;
 	top: unset !important;
 	left: unset !important;
+	font-family: 'Roboto';
 }
 /* .flex-div-table-market>div{
 	width:20.625em; 
@@ -817,6 +844,7 @@ button{
 	margin-left:0.75em;
 	margin-right:1.3125em;
 	font-size:1rem;
+	font-weight:500;
 }
 .characteristics_div2{
 	margin:0.75em 0.75em 1.125em 0.75em;
@@ -1017,6 +1045,7 @@ button{
 	/* width:80.5625em; */
 	display: flex;
 	justify-content: center;
+	font-family:'Roboto';
 }
 .button1-market button:hover{
 	background-color:#212121;
@@ -1077,6 +1106,8 @@ button{
 	margin-left:1.0625em;
 	color:#212121;
 	font-size:1.5rem;
+	font-family:'Roboto';
+	font-weight:normal;
 }
 .line_div{
 	height:2px;
@@ -1093,12 +1124,14 @@ button{
 	font-size:5.625rem;
 	color:#333333;
 	margin-top:2.4375rem;
+	font-family: 'Playfair Display';
 }
 .big_chair_section_div1 h2{
 	font-size:1.25rem;
 	color:#000000;
 	margin-top:0.5625em;
 	margin-bottom:4.3125rem;
+	font-family:'Roboto';
 }
 .market2{
 	background-color:#F5F5F5;
@@ -1120,6 +1153,7 @@ button{
 	flex-flow:column;
 	width:25em;
 	margin-right:2.8125em;
+	font-family:'Roboto';
 }
 .market2_divs:last-child{
 	margin-bottom:41px;
@@ -1138,6 +1172,7 @@ button{
 .market2-header h1{
 	font-size:1.375rem;
 	color:#212121;
+	font-weight:500;
 }
 .line-div_market2{
 	width:100%;
@@ -1202,9 +1237,9 @@ button{
 	flex-flow:column;
 	justify-content:space-between;
 }
-/* .info-market2>div{
-	margin-bottom:2.625em;
-} */
+.info-market2>div{
+	cursor:pointer;
+}
 .info-market2 h1{
 	font-size:1rem;
 	color:#000000;
@@ -1213,7 +1248,7 @@ button{
 .info-market2 h2{
 	font-size:1.125rem;
 	color:#000000;
-	font-weight: lighter;
+	font-weight: 400;
 	margin-top:0.5em;
 	
 }
@@ -1304,18 +1339,73 @@ button{
 	margin-right:8.125em; */
 }
 .slider2_divs{
-	display: flex;
-	justify-content: space-between;
+	/* display: flex;
+	justify-content:flex-start; */
+	overflow:hidden;
 }
-.slider2_divs>div{
-	width:33.125em;
-	height:20.75em;
+.slider2_div{
+	display:inline-block;
+	width:33.125em ;
+	height:20.75em ;
 	background-color: #F5F5F5CC;
-	margin-right:1.875em;
+	margin-left:1.875em;
+	cursor:pointer;
+	/* position:relative !important;
+	top:unset !important;
+	left:unset !important;
+	bottom:unset !important;
+	right:unset !important; */
 }
-.last_slider2{
+/* .slick-track{
+	margin-top:0px !important;
+	/* transform: translate3d(-1839px, 0px, 0px) !important;
+ } 
+
+.slick-list{
+	width:100% !important;
+	background-color:transparent !important;
+}
+.slick-slide{
+	width:33.125em !important;
+	margin-top:20px  !important;
+	background-color: #F5F5F5CC;
+	margin-left:30px;
+	height:200px !important;
+}
+.slick-slide>div{
+	width:100% !important;
+	height:100% !important;
+}
+.slick-slide>div>div{
+	width:100% !important;
+	height:100% !important;
+}
+.slick-prev{
+	position:absolute;
+	background:transparent;
+	color:transparent !important;
+	right:100px;
+	top:-20px;
+	left:unset !important;
+	width:62px;
+}
+.slick-prev::before{
+	content: unset !important;
+}
+.slick-next::before{
+	content: unset !important;
+}
+.slick-next{
+	position:absolute;
+	background:transparent;
+	color:transparent !important;
+	right:0px;
+	top:-20px;
+	width:60px;
+} */
+/* .third_slider2{
 	margin-right:0 !important;
-}
+} */
 .list_slider2{
 	width:100%;
 	margin-bottom: 0.5625em;
@@ -1325,27 +1415,32 @@ button{
 .list_slider2 a{
 	text-decoration: none;
 	color:#616161;
+	font-family:'Roboto';
 }
-.slider2_divs>div>div{
+.slider2_div>div{
 	margin-top:8.5%;
 	margin-left:8.5%;
+	cursor:pointer;
 	/* margin-top:2.5em; */
 	/* margin-left:2.5em;  */
 }
-.slider2_divs h1{
+.slider2_div h1{
 	color:#000000;
 	font-size:1.25rem;
+	font-family:'Roboto';
+	font-weight:bold;
 }
-.slider2_divs h2{
+.slider2_div h2{
 	color:#333333;
 	font-size:35px;
 	margin-bottom: 1.25rem;
+	font-family: 'Playfair Display';
 }
 .first_slider2{
 	 background-image: url(./images/download-\(9\)@2x.png);
-	 background-position: center;
-	 background-size:contain;
-	 background-repeat: no-repeat;
+	 background-position: center !important;
+	 background-size:contain !important;
+	 background-repeat: no-repeat !important;
 }
 .second_slider2{
 	background-image: url(./images/Barstool-punton@2x.png);
@@ -1353,8 +1448,20 @@ button{
 	background-size:contain;
 	background-repeat: no-repeat;
 }
-.last_slider2{
+.third_slider2{
 	background-image: url(./images/download-\(8\)@2x.png);
+	background-position:center;
+	background-size:contain;
+	background-repeat: no-repeat;
+}
+.forth_slider2{
+	background-image: url(./images/download-\(1\).png);
+	background-position:center;
+	background-size:contain;
+	background-repeat: no-repeat;
+}
+.fifth_slider2{
+	background-image: url(./images/download\ \(5\)@2x.png);
 	background-position:center;
 	background-size:contain;
 	background-repeat: no-repeat;
@@ -1387,28 +1494,36 @@ button{
 .countdown-info_div1{
 	margin:33px 0;
 	margin-right:10.9375em;
+	font-family: 'Roboto';
+	font-family:normal;
 }
 .countdown-info_div1>div{
 	display: flex;
 	align-items: center;
 	margin-top:1.4375em;
+	cursor:pointer;
 }
 .countdown-info_div1>p{
 	color:#616161;
 	font-size:1.125rem;
+	cursor:pointer;
 }
 .countdown-info_div1>h1{
 	color:#212121;
 	font-size:2.25rem;
+	font-family: 'Playfair Display';
+	cursor:pointer;
 }
 .countdown-info_div1>h2{
 	color:#616161;
 	font-size: 1.5rem;
 	margin-top:2rem;
+	cursor:pointer;
 }
 .countdown-info_div1>h3{
 	font-size:1.875em;
 	color:#212121;
+	cursor:pointer;
 }
 .countdown-info_div1 span{
 	font-size:1.5rem;
@@ -1421,11 +1536,14 @@ button{
 .square_div h1{
 	font-size:1.875rem;
 	color:#212121;
+	font-family:'Roboto';
+	font-weight:500;
 }
 .square_div p{
 	font-size:0.875rem;
 	color:#212121;
 	text-align: center;
+	font-family:'Roboto';
 }
 .countdown-info_div1>div>h2{
 	margin:0 0.625em;
@@ -1461,6 +1579,7 @@ button{
 	justify-content: center;
 	align-items: center;
 	position: relative;
+	cursor:pointer;
 }
 .countdown_background div{
 	display: none;
@@ -1495,27 +1614,34 @@ button{
 .info-market3 h1{
 	color:#212121;
 	font-size:2.25rem;
+	font-family: 'Playfair Display';
+	cursor: default;
 }
 .info-market3 p{
-	font-size:1 rem;
+	font-size:1rem;
 	color:#000000;
 	margin-top:1.25em;
 	width:19.0625em;
 	font-family: 'Roboto', sans-serif;
 	font-weight: lighter;
 	line-height: 2;
+	cursor: default;
 }
 .button-market3{
 	margin-top:2.8125em;
 }
+
 .table-market3{
+	margin-left:1.25em;
+	/* width:100%; */
 	margin-top:0 !important;
 	display: flex ;
 	justify-content: flex-end ;
-	margin-left:1.25em;
 	position: relative;
+	overflow: hidden;
 }
-.table-market3>div{
+.table-market3_div{
+	/* display: inline-block; */
 	margin-left:1.25em;
 	margin-right:0 !important;
 }
@@ -1590,11 +1716,15 @@ button{
 .email_section h1{
 	color:#0D0D0D;
 	font-size:2.875rem;
+	font-family: 'Playfair Display';
+	cursor: default;
 }
 .email_section p{
 	color:#000000;
 	font-size:1rem;
 	margin-top:0.8125em;
+	font-family:'Roboto';
+	cursor: default;
 }
 .email_div{
 	width:100%;
@@ -1609,10 +1739,12 @@ button{
 	outline:none;
 	border-radius:4px;
 	font-size:0.875rem;
+	font-family:'Roboto';
 }
 .email_div input::placeholder{
 	font-size:0.875rem;
 	color:#757575;
+	font-family:'Roboto';
 }
 .email_div button{
 	background-color:#212121;
@@ -1622,6 +1754,7 @@ button{
 	color:#FFFFFF;
 	font-size:1rem;
 	border:1px #212121;
+	font-family: 'Roboto';
 }
 .blog_section{
 	background-color:#F5F5F5;
@@ -1638,11 +1771,15 @@ button{
 .blog_div1 h1{
 	font-size:2.875rem;
 	color:#424242;
+	font-family: 'Playfair Display';
+	cursor: default;
 }
 .blog_div1 p{
 	font-size:0.875rem;
 	color:#212121;
 	margin-top:0.625em;
+	font-family:'Roboto';
+	cursor: default;
 }
 .blog_div2{
 	display: flex;
@@ -1655,10 +1792,13 @@ button{
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
+	font-family:'Roboto';
+	font-weight:normal;
 }
 .background-blog{
 	width:100%;
 	height:295px;
+	cursor:pointer;
 }
 .background-blog img{
 	width: 100%;
@@ -1694,6 +1834,7 @@ button{
 	font-size:1.25rem;
 	color:#424242;
 	cursor:pointer;
+	font-weight:500;
 }
 .paragraph_div{
 	margin-top:1.875em;
@@ -1709,6 +1850,7 @@ button{
 	color:#212121;
 	margin-top:1.875em;
 	cursor: pointer;
+	font-weight: normal;
 }
 .line_div_blog{
 	display: flex;
@@ -1754,11 +1896,14 @@ button{
 	font-size:1.25rem;
 	color:#000000;
 	margin-top:1.25em;
+	font-family:'Roboto';
+	font-weight:600;
 }
 .icon_div p{
 	font-size:1rem;
 	color:#000000;
 	margin-top:3px;
+	font-family:'Roboto';
 }
 .emblem_div{
 	overflow: hidden;
@@ -1786,6 +1931,7 @@ button{
 }
 footer{
 	overflow: hidden;
+	font-family:'Roboto';
 }
 .footer_div1{
 	margin:6.25em 15.9375em 6.25em 15.9375em;
@@ -1917,6 +2063,7 @@ footer{
 	}
 	.count_section h1{
 		font-size:2.4rem;
+		font-family:'Roboto';
 	}
 	.button1-market button{
 		padding: 1rem 2.8rem;
@@ -2081,9 +2228,13 @@ footer{
 	}
 	.countdown_background p{
 		font-size:1rem;
+		font-family:'Roboto';
+		font-weight:500;
 	}
 	.countdown_background h1{
 		font-size:1.2rem;
+		font-family:'Roboto';
+		font-weight:500;
 	}
 	.blog_div2{
 		flex-flow:column;
@@ -2163,9 +2314,6 @@ footer{
 	}
 	.info-market3 p {
 		font-size:13.5px;
-	}
-	.slider2_divs>div{
-		height:15em;
 	}
 	.market3_section>div{
 		flex-flow: column;
@@ -2248,6 +2396,11 @@ footer{
 	}
 	.market2-header h1 {
 		width:25%;
+	}
+}
+@media only screen and (max-width:1024px){
+	.slider2_div{
+		height:15em;
 	}
 }
 @media only screen and (max-width:1000px){
@@ -2513,6 +2666,15 @@ footer{
 	.list-market2>div {
 		margin-right: 0px;
 	}
+	.big_chair_section_div2 h1{
+		font-size:22px;
+		font-weight:bold;
+	}
+} 
+@media only screen and (max-width:800px){
+	.list_menu-market ul li{
+		padding:0.6em 1.65em;
+	}
 }
 @media only screen and (max-width:670px){
 	
@@ -2532,7 +2694,6 @@ footer{
 	}
 	.slider2_divs>div {
 		margin-right:1.2em;
-		height:13em;
 	}
 	.slider2_divs>div h1{
 		font-size:0.75rem;
@@ -2566,9 +2727,14 @@ footer{
 		margin-right:0 !important;
 	}
 }
-@media only screen and(max-width:375px){
+@media only screen and(max-width:600){
+	.slider2_divs>div {
+		height:13em;
+	}
+}
+/* @media only screen and(max-width:375px){
 	.first_header_div{
 		margin-left:0;
 		margin-right:0;
 	}
-}
+} */

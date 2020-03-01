@@ -1,4 +1,3 @@
-
 // Set the hours you want at 'a' ideally smaller than number 24
 var a = 15;
 var countdown = a*60*60;
@@ -89,3 +88,4 @@ menu.addEventListener("click",function(){
 x.addEventListener("click",function(){
   menuclass.style.display = "none";
 });
+
